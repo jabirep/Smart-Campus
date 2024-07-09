@@ -23,7 +23,7 @@ public class AppTest {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://smartcampustesting.kran.co.in/smartcampus"); 
+	driver.get("TYPE URL HERE");//SMARTCAMPUS TESTING SERVER
 	
 	driver.findElement(By.id("inputUsername")).sendKeys("admin");
     driver.findElement(By.name("password")).sendKeys("passwd");
